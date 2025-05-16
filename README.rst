@@ -15,24 +15,20 @@
 
 .. class:: center
 
-    :Название исследуемой задачи: Мое название работы
-    :Тип научной работы: M1P/НИР/CoIS
-    :Автор: Имя Отчество Фамилия
-    :Научный руководитель: степень, Фамилия Имя Отчество
-    :Научный консультант(при наличии): степень, Фамилия Имя Отчество
+    :Название исследуемой задачи: Эффективное агрегирование по меткам для задачи последовательностей событий
+    :Тип научной работы: НИР
+    :Автор: Боева Галина Леонидовна
+    :Научный руководитель: к.ф-м.н, Алексей Алексеевич Зайцев
 
 Abstract
 ========
 
-Purus sit amet luctus venenatis lectus magna fringilla. Condimentum id venenatis a condimentum vitae sapien. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Eget egestas purus viverra accumsan in. Nam aliquam sem et tortor. Donec et odio pellentesque diam volutpat commodo. Odio pellentesque diam volutpat commodo sed egestas. Sit amet dictum sit amet justo. Pellentesque sit amet porttitor eget. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Quis varius quam quisque id diam vel quam elementum. Ornare lectus sit amet est placerat in. Vulputate dignissim suspendisse in est ante. Elit sed vulputate mi sit amet mauris. Egestas sed tempus urna et pharetra pharetra. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus.
+Most user-related data can be represented as a sequence of events associated with a timestamp and a collection of categorical labels. For example, the purchased basket of goods and the time of buying fully characterize the event of the store visit. Anticipation of the label set for the future event called the problem of temporal sets prediction, holds significant value, especially in such high-stakes industries as finance and e-commerce. A fundamental challenge of this task is the joint consideration of the temporal nature of events and label relations within sets. The existing models fail to capture complex time and label dependencies due to ineffective representation of
+historical information initially. We aim to address this shortcoming by presenting the framework with a specific way to aggregate the observed information into time- and set structure-aware views prior to transferring it into main architecture blocks. Our strong emphasis on input arrangement facilitates the subsequent efficient learning of label interactions. The proposed model is called Label-Attention NETwork, or LANET. We conducted experiments on four different datasets and made a comparison with four established models, including SOTA, in this area. The experimental results suggest that LANET provides significantly better quality than any other model, achieving an improvement up to 65% in terms of weighted F1 metric compared to the closest competitor. Moreover, we contemplate causal relationships between labels in our work, as well as a thorough study of LANET components’ influence on performance. We provide an implementation of LANET to encourage its wider usage.
 
 Research publications
 ===============================
-1. 
-
-Presentations at conferences on the topic of research
-================================================
-1. 
+1. ECAI 2024
 
 Software modules developed as part of the study
 ======================================================
